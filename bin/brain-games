@@ -1,0 +1,4 @@
+#!/usr/bin/php7.4
+<?php
+    echo "Welcome to the Brain Games!";
+

@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "description": "Brain Games Hexlet project",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Anton Degoda",
+            "email": "dehoda@ukr.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
+}
