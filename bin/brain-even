@@ -1,7 +1,8 @@
 #!/usr/bin/php7.4
 <?php
 
-use function php\project\lvl1\EvenGame\run;
+use php\project\lvl1\Engine;
+use php\project\lvl1\Games\EvenGame;
 
     $autoloadPath1 = __DIR__ . '/../../../autoload.php';
     $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
@@ -10,4 +11,6 @@ use function php\project\lvl1\EvenGame\run;
     } else {
         require_once $autoloadPath2;
     }
-    run();
+    $game = new EvenGame();
+    $engine = new Engine();
+    $engine->run($game);
