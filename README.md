@@ -7,3 +7,7 @@
 ## Even Game
 https://asciinema.org/a/Fkqf5Yj9MuasfKmpu8UkOKV4X
 
+## Calc Game
+https://asciinema.org/a/4JeOflect9CvlaenXP3AJKyxW
+
+

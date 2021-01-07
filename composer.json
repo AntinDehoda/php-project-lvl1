@@ -20,7 +20,10 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/EvenGame.php"
+            "src/Games/Game.php",
+            "src/Games/EvenGame.php",
+            "src/Games/CalcGame.php",
+            "src/Engine.php"
         ]
     },
     "require-dev": {
