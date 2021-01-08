@@ -2,7 +2,7 @@
 <?php
 
 use php\project\lvl1\Engine;
-use php\project\lvl1\Games\GCDGame;
+use php\project\lvl1\Games\PrimeGame;
 
     $autoloadPath1 = __DIR__ . '/../../../autoload.php';
     $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
@@ -11,6 +11,6 @@ use php\project\lvl1\Games\GCDGame;
     } else {
         require_once $autoloadPath2;
     }
-    $game = new GCDGame();
+    $game = new PrimeGame();
     $engine = new Engine();
     $engine->run($game);
